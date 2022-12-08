@@ -7,7 +7,7 @@
 			"type": "process",
 			"args": [
 				"build",
-				"${workspaceFolder}/src/MyProject.csproj",
+				"${workspaceFolder}/src/DNetTutorial.csproj",
 				"/property:GenerateFullPaths=true",
 				"/consoleloggerparameters:NoSummary"
 			],
@@ -19,7 +19,7 @@
 			"type": "process",
 			"args": [
 				"publish",
-				"${workspaceFolder}/src/MyProject.csproj",
+				"${workspaceFolder}/src/DNetTutorial.csproj",
 				"/property:GenerateFullPaths=true",
 				"/consoleloggerparameters:NoSummary"
 			],
@@ -33,7 +33,7 @@
 				"watch",
 				"run",
 				"--project",
-				"${workspaceFolder}/src/MyProject.csproj"
+				"${workspaceFolder}/src/DNetTutorial.csproj"
 			],
 			"problemMatcher": "$msCompile"
 		}
